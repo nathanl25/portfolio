@@ -1,0 +1,8 @@
+@use '../variables/color' as clr;
+@use '../variables/fonts' as fnt;
+
+.projects {
+  //   height: 100vh;
+  background-color: clr.$blue-dark;
+  z-index: 1;
+}
