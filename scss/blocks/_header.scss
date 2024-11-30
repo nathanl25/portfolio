@@ -1,0 +1,30 @@
+@use '../variables/color' as clr;
+@use '../variables/fonts' as fnt;
+
+.header {
+    background-color: clr.$blue-light;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    &_title {
+        font-family: fnt.$font-heading;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: clr.$gray-dark;
+        // font-style: italic;
+    }
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    &_link {
+        font-family: fnt.$font-text;
+        color: clr.$gray-dark;
+        text-decoration: none;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+}
