@@ -81,7 +81,79 @@
 
 .projects {
   background-color: #305267;
-  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+.projects-heading {
+  font-family: "Roboto Mono", sans-serif;
+  text-align: center;
+  color: black;
+}
+.projects-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  padding: 1rem;
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-card__hover-container {
+  position: relative;
+  width: 100%;
+}
+.project-card__hover-container:hover .project-card_img {
+  opacity: 0.15;
+}
+.project-card__hover-container:hover .project-card_backside {
+  opacity: 1;
+}
+.project-card_image {
+  height: auto;
+  width: 100%;
+  opacity: 1;
+  backface-visibility: hidden;
+  transition: 0.5s ease;
+}
+.project-card_backside {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.project-card_description {
+  font-family: "Figtree", sans-serif;
+  font-weight: bold;
+}
+.project-card_button {
+  font-family: "Figtree", sans-serif;
+  border: 4px solid #478887;
+  background-color: #b7d5d4;
+  color: black;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.project-card_title {
+  font-family: "Figtree", sans-serif;
+}
+.project-card_icon {
+  color: black;
+  text-decoration: none;
+  font-size: 1.25rem;
 }
 
 * {
