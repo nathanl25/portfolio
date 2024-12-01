@@ -156,6 +156,40 @@
   font-size: 1.25rem;
 }
 
+.skills {
+  background-color: #b7d5d4;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-heading {
+  font-family: "Roboto Mono", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.skill {
+  display: flex;
+}
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.skill-title {
+  font-family: "Figtree", sans-serif;
+  font-size: 2rem;
+}
+.skill-icon {
+  font-size: 2rem;
+}
+
 * {
   margin: 0;
   padding: 0;
