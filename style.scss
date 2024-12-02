@@ -3,6 +3,8 @@
 @use './scss/blocks/projects';
 @use './scss/blocks/skills';
 @use './scss/blocks/contact';
+@use './scss/blocks/query-mobile';
+@use './scss/blocks/query-desktop';
 
 * {
   margin: 0;
