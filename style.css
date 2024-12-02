@@ -190,6 +190,32 @@
   font-size: 2rem;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #b7d5d4;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+}
+.contact_heading {
+  align-self: center;
+  font-family: "Roboto Mono", sans-serif;
+}
+.contact_container {
+  display: flex;
+  flex-direction: column;
+}
+.contact_icon {
+  font-size: 1.5rem;
+}
+.contact_link {
+  text-decoration: none;
+  font-family: "Figtree", sans-serif;
+  color: black;
+  font-size: 1.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;
