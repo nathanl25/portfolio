@@ -6,11 +6,12 @@
   height: 50vh;
   display: flex;
   flex-direction: column;
+  padding: 3rem;
 }
 .skill-heading {
   font-family: fnt.$font-heading;
   text-align: center;
-  padding-top: 1rem;
+  // padding-top: 1rem;
   padding-bottom: 1rem;
 }
 .skill {

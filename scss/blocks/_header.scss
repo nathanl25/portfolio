@@ -8,14 +8,20 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  //   z-index: 2;
-  //   position: fixed;
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: white;
   &_title {
     font-family: fnt.$font-heading;
     font-size: 1.5rem;
     font-weight: 500;
     color: clr.$gray-dark;
     // font-style: italic;
+  }
+  &_hamburger {
+    display: none;
   }
 }
 .nav {
