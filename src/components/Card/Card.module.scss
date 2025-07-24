@@ -1,0 +1,82 @@
+.card {
+  padding: 1rem;
+  font-family: 'Figtree', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    object-fit: contain;
+    height: 400px;
+    width: 400px;
+    opacity: 1;
+    backface-visibility: hidden;
+    transition: 0.5s ease;
+  }
+  p {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+  h3 {
+    font-family: 'Figtree', sans-serif;
+    font-weight: bold;
+  }
+}
+.hover__container {
+  position: relative;
+  width: 100%;
+  &:hover {
+    img {
+      background-color: #b9d6e9;
+      opacity: 0.15;
+    }
+    .backside {
+      opacity: 1;
+    }
+  }
+}
+.backside {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  a {
+    font-family: 'Figtree', sans-serif;
+    font-weight: bold;
+    // border: 4px solid #478887;
+    border-radius: 15%;
+    background-color: #b7d5d4;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+}
+.caption {
+  display: flex;
+  flex-direction: row;
+  // justify-content: space-between;
+  font-size: 1.25rem;
+  gap: 1rem;
+  align-items: center;
+  h3 {
+    font-weight: 600;
+    color: #e6f1ff;
+  }
+
+  a {
+    color: #e6f1ff;
+    // font-variant: none;
+    // font-style: normal;
+    text-decoration: none;
+    // text-decoration: none;
+  }
+}

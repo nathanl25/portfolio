@@ -1,0 +1,41 @@
+.introduction {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  background-color: #b7d5d4;
+}
+.text_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  h1 {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+    font-family: 'Figtree', sans-serif;
+  }
+  p {
+    font-size: 1.25rem;
+    font-family: 'Figtree', sans-serif;
+  }
+}
+.image_section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+    border-radius: 50%;
+  }
+}

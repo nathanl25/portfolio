@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: white;
+  height: 60px;
+}
+.title {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #373e40;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  a {
+    font-family: 'Figtree', sans-serif;
+    color: #373e40;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "skills": [
+    {
+      "name": "Java",
+      "icon": "devicon-java-plain",
+      "category": "languages"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "devicon-typescript-plain",
+      "category": "languages"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "devicon-javascript-plain",
+      "category": "languages"
+    },
+    {
+      "name": "HTML",
+      "icon": "devicon-html5-plain",
+      "category": "languages"
+    },
+    {
+      "name": "CSS",
+      "icon": "devicon-css3-plain",
+      "category": "languages"
+    },
+    {
+      "name": "C",
+      "icon": "devicon-c-original",
+      "category": "languages"
+    },
+    {
+      "name": "SASS",
+      "icon": "devicon-sass-original",
+      "category": "languages"
+    },
+    {
+      "name": "Bash",
+      "icon": "devicon-bash-plain",
+      "category": "languages"
+    },
+    {
+      "name": "Python",
+      "icon": "devicon-python-plain",
+      "category": "languages"
+    },
+    {
+      "name": "React",
+      "icon": "devicon-react-original",
+      "category": "frameworks"
+    },
+    {
+      "name": "Node.js",
+      "icon": "devicon-nodejs-plain",
+      "category": "frameworks"
+    },
+    {
+      "name": "Spring",
+      "icon": "devicon-spring-original",
+      "category": "frameworks"
+    },
+    {
+      "name": "Next.js",
+      "icon": "devicon-nextjs-original-wordmark",
+      "category": "frameworks"
+    },
+    {
+      "name": "NestJS",
+      "icon": "devicon-nestjs-original",
+      "category": "frameworks"
+    },
+    {
+      "name": "Linux",
+      "icon": "devicon-linux-plain",
+      "category": "tools"
+    },
+    {
+      "name": "Git",
+      "icon": "devicon-git-plain",
+      "category": "tools"
+    },
+    {
+      "name": "GitHub",
+      "icon": "devicon-github-plain",
+      "category": "tools"
+    },
+    {
+      "name": "AWS",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "category": "tools"
+    },
+    {
+      "name": "Vite",
+      "icon": "devicon-vite-original",
+      "category": "tools"
+    }
+  ]
+}

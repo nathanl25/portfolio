@@ -1,0 +1,35 @@
+{
+  "projects": [
+    {
+      "imageSrc": "https://placekeanu.com/300/200",
+      "imageAlt": "Weather App Preview",
+      "title": "Weather Dashboard",
+      "description": "A React-based weather application that provides real-time weather updates using OpenWeather API. Features include 5-day forecast and location search.",
+      "githubLink": "https://github.com/username/weather-app",
+      "deployedLink": "https://weather-app-demo.netlify.app"
+    },
+    {
+      "imageSrc": "https://placekeanu.com/300/200/y",
+      "imageAlt": "E-commerce Platform Preview",
+      "title": "Shop Smart",
+      "description": "Full-stack e-commerce platform built with React, Node.js, and MongoDB. Includes user authentication, shopping cart, and payment integration.",
+      "githubLink": "https://github.com/username/shop-smart",
+      "deployedLink": "https://shop-smart-demo.herokuapp.com"
+    },
+    {
+      "imageSrc": "https://placekeanu.com/300/200/g",
+      "imageAlt": "Task Manager Preview",
+      "title": "Task Master",
+      "description": "A minimalist task management application built with React and TypeScript. Features drag-and-drop functionality and local storage persistence.",
+      "githubLink": "https://github.com/username/task-master"
+    },
+    {
+      "imageSrc": "https://placekeanu.com/300/200/b",
+      "imageAlt": "Recipe Finder Preview",
+      "title": "Recipe Finder",
+      "description": "A recipe search application that helps users find recipes based on available ingredients. Integrates with Spoonacular API.",
+      "githubLink": "https://github.com/username/recipe-finder",
+      "deployedLink": "https://recipe-finder-demo.vercel.app"
+    }
+  ]
+}
