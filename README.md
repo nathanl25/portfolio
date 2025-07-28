@@ -1,69 +1,51 @@
-# React + TypeScript + Vite
+# Project: Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- ## [Try it out](http://ec2-13-211-18-208.ap-southeast-2.compute.amazonaws.com:8080/) -->
 
-Currently, two official plugins are available:
+- ***
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requirements / Purpose
 
-## Expanding the ESLint configuration
+- A revamp of my initial portfolio, done with react TS this time instead.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Features
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Design Goals
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Approach
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Findings/Learnings
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Known issues
+
+- The single webhook contains a large amount of responsibilities/dependencies and is difficult to test for
+- UI on certain resolution breakpoints does not display properly
+
+## Future Goals
+
+- Deployment
+- Multiple lobbies
+- Refactor of client services/webhook
+- Mobile/smaller resolution friendly UI
+- Visual indication of other player selections
+- Backend persistence of player selections
+- Animal and images to represent the board selection
+
+## Edge Cases
+
+## Change logs
+
+### 2025-06-24
+
+- Initial deployment
+
+### 2025-06-10
+
+- Implemented testing
+- Implemented a player list
+
+## What did you struggle with?
