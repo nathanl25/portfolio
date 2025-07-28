@@ -2,6 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css';
+import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
 import Introduction from './components/Introduction/Introduction';
 import Projects from './components/Projects/Projects';
@@ -16,6 +17,7 @@ function App() {
       <Introduction />
       <Projects />
       <Skills />
+      <Contact />
     </>
   );
 }
