@@ -22,18 +22,7 @@
 
 ## Known issues
 
-- The single webhook contains a large amount of responsibilities/dependencies and is difficult to test for
-- UI on certain resolution breakpoints does not display properly
-
 ## Future Goals
-
-- Deployment
-- Multiple lobbies
-- Refactor of client services/webhook
-- Mobile/smaller resolution friendly UI
-- Visual indication of other player selections
-- Backend persistence of player selections
-- Animal and images to represent the board selection
 
 ## Edge Cases
 
@@ -44,8 +33,5 @@
 - Initial deployment
 
 ### 2025-06-10
-
-- Implemented testing
-- Implemented a player list
 
 ## What did you struggle with?
