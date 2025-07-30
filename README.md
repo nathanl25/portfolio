@@ -1,21 +1,37 @@
-Portfolio
+# Project: Portfolio
 
-To be completed:
-Hamburger Button for Nav on mobile
-On hover styling for links/buttons
-Proper display photo
-Update Projects
-Update colour palette
-Update fonts (mainly heading)
-Sticky/z-position for introduction
-Contact form with actual functionality
-Smooth nav bar behaviour on resize
-Smooth intro behaviour on resize
-Scroll animation for in-page anchors
-More mixins
-Design of skills
-Update bio
-Host on website
+<!-- ## [Try it out](http://ec2-13-211-18-208.ap-southeast-2.compute.amazonaws.com:8080/) -->
 
-Bonus:
-Fancier
+- ***
+
+## Requirements / Purpose
+
+- A revamp of my initial portfolio, done with react TS this time instead.
+
+## Features
+
+## Design Goals
+
+---
+
+## Approach
+
+## Findings/Learnings
+
+---
+
+## Known issues
+
+## Future Goals
+
+## Edge Cases
+
+## Change logs
+
+### 2025-06-24
+
+- Initial deployment
+
+### 2025-06-10
+
+## What did you struggle with?

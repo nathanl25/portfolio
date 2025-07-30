@@ -1,0 +1,18 @@
+.projects {
+  background-color: #305267;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  h1 {
+    text-align: center;
+    // color: #ffdab9;
+    color: #e6f1ff;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
