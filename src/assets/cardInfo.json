@@ -1,35 +1,55 @@
 {
   "projects": [
     {
-      "imageSrc": "https://placekeanu.com/300/200",
-      "imageAlt": "Weather App Preview",
-      "title": "Weather Dashboard",
-      "description": "A React-based weather application that provides real-time weather updates using OpenWeather API. Features include 5-day forecast and location search.",
-      "githubLink": "https://github.com/username/weather-app",
-      "deployedLink": "https://weather-app-demo.netlify.app"
+      "imageSrc": "../../portfolio.png",
+      "imageAlt": "Portfolio Screenshot",
+      "title": "This Website",
+      "description": "A personal portfolio website built with React, TypeScript, and Sass. It showcases my projects and skills.",
+      "githubLink": "https://github.com/nathanl25/portfolio",
+      "deployedLink": "https://nathanl25.github.io/portfolio/"
     },
     {
-      "imageSrc": "https://placekeanu.com/300/200/y",
-      "imageAlt": "E-commerce Platform Preview",
-      "title": "Shop Smart",
-      "description": "Full-stack e-commerce platform built with React, Node.js, and MongoDB. Includes user authentication, shopping cart, and payment integration.",
-      "githubLink": "https://github.com/username/shop-smart",
-      "deployedLink": "https://shop-smart-demo.herokuapp.com"
+      "imageSrc": "../../Crabgograb.png",
+      "imageAlt": "Crab Go Grab Screenshot",
+      "title": "Crab Go Grab",
+      "description": "An online multiplayer game where players can guess an outcome. Uses websockets with React and Spring Boot.",
+      "githubLink": "https://github.com/nathanl25/crab-go-grab"
     },
     {
-      "imageSrc": "https://placekeanu.com/300/200/g",
-      "imageAlt": "Task Manager Preview",
-      "title": "Task Master",
-      "description": "A minimalist task management application built with React and TypeScript. Features drag-and-drop functionality and local storage persistence.",
-      "githubLink": "https://github.com/username/task-master"
+      "imageSrc": "../../Employeecreator.png",
+      "imageAlt": "Employee Creator Screenshot",
+      "title": "Employee Creator",
+      "description": "Full stack application using Redux and Spring Boot. Allows the client to modify employee data stored in a relational database.",
+      "githubLink": "https://github.com/nathanl25/employee-creator"
     },
     {
-      "imageSrc": "https://placekeanu.com/300/200/b",
-      "imageAlt": "Recipe Finder Preview",
-      "title": "Recipe Finder",
-      "description": "A recipe search application that helps users find recipes based on available ingredients. Integrates with Spoonacular API.",
-      "githubLink": "https://github.com/username/recipe-finder",
-      "deployedLink": "https://recipe-finder-demo.vercel.app"
+      "imageSrc": "../../fakeos.png",
+      "imageAlt": "FakeOS Screenshot",
+      "title": "FakeOS",
+      "description": "A mock replication of Windows XP, built with React. Features a taskbar, start menu, and application.",
+      "githubLink": "https://github.com/nathanl25/fakeOS"
+    },
+    {
+      "imageSrc": "../../postcodes.png",
+      "imageAlt": "Postcodes Screenshot",
+      "title": "Postcode viewer",
+      "description": "A full stack application in React and Spring Boot that allows users to view postcode data, and for authorised users to modify postcode data. Was created to learn about authentication.",
+      "githubLink": "https://github.com/nathanl25/postcodes"
+    },
+    {
+      "imageSrc": "../../morsecode.png",
+      "imageAlt": "Morse Code Translator Preview",
+      "title": "Morse Code Translator",
+      "description": "A web application that allows translation from alpha-numeric characters to Morse code and binary. Built with Javascript.",
+      "githubLink": "https://github.com/nathanl25/morse-code",
+      "deployedLink": "https://nathanl25.github.io/morse-code/"
+    },
+    {
+      "imageSrc": "../../minesweeper.png",
+      "imageAlt": "Minesweeper Preview",
+      "title": "Minesweeper",
+      "description": "A terminal-based version of the classic Minesweeper game. Built with Java.",
+      "githubLink": "https://github.com/nathanl25/minesweeper"
     }
   ]
 }

@@ -6,12 +6,22 @@
   padding-right: 2rem;
   padding-top: 2rem;
   background-color: #b7d5d4;
+  align-items: center;
+  gap: 2rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
 }
+
 .text_section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
+  flex: 1;
+
   h1 {
     font-family: 'Roboto Mono', sans-serif;
     font-size: 2.5rem;
@@ -24,18 +34,39 @@
     font-size: 1.25rem;
     font-family: 'Figtree', sans-serif;
   }
+
+  @media (max-width: 768px) {
+    flex: none;
+    width: 100%;
+  }
 }
+
 .image_section {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1;
+
   img {
     object-fit: cover;
+    object-position: top;
     width: 100%;
+    height: auto;
     max-width: 400px;
     max-height: 400px;
-    height: auto;
     border-radius: 50%;
+
+    @media (max-width: 768px) {
+      width: 60vw;
+      height: 60vw;
+      max-width: none;
+      max-height: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 60%;
+    flex: none;
   }
 }

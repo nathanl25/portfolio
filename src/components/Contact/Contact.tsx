@@ -3,7 +3,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import classes from './Contact.module.scss';
 const Contact = () => {
   return (
-    <section className={classes.contact}>
+    <section id="contact" className={classes.contact}>
       <h1>Contact Me</h1>
 
       <div className={classes.contact_links}>

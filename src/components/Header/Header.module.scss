@@ -1,31 +1,75 @@
 .header {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem;
-  z-index: 2;
   position: sticky;
   top: 0;
-  overflow: hidden;
-  background-color: white;
-  height: 60px;
+  background: white;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .title {
-  font-family: 'Roboto Mono', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #373e40;
+  margin: 0;
 }
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+
+  @media (max-width: 768px) {
+    display: flex;
+  }
+}
+
+.hamburgerLine {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 2px 0;
+  transition: 0.3s;
+}
+
 .nav {
   display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
+  gap: 2rem;
+
   a {
-    font-family: 'Figtree', sans-serif;
-    color: #373e40;
     text-decoration: none;
-    font-size: 1.25rem;
-    font-weight: 500;
+    color: inherit;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: 768px) {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transform: translateY(-10px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    gap: 1rem;
+    min-width: 150px;
+  }
+}
+
+.navOpen {
+  @media (max-width: 768px) {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
   }
 }
